@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.visualizacao__header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+
+}
+
+.visualizacao__logo{
+    display: flex;
+    width: 230px;
+    margin: -30px;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+
+.visualizacao__singin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D81E27;
+    width: 120px;
+    height: 45px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 0.5% 0%;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    text-decoration: underline #D81E27;
+}
+
+.visualizacao__singin:hover{
+    background-color: #ad1920;
+}
+
+body{
+    background-image: url(assets/netflix.png);
+    height: 100px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.visualizacao{
+    margin: 10% 15%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.visualizacao__conteudo{
+    width: 615px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.visualizacao__conteudo__titulo{
+    font-size: 61px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.visualizacao__conteudo__paragrafo{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 100;
+}
+
+.visualizacao__links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+
+.visualizacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    background-color: #D81E27;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.visualizacao__imagem{
+    max-width: 20px;
+}
+
+.visualizacao__links__link:hover{
+    background-color: #ad1920;
+}
+
+.visualizacao__rodape{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
